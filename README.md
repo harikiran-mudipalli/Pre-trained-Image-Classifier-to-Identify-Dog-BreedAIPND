@@ -4,6 +4,8 @@
  To execute the project, run ``` sh run_models_batch.sh``` in terminal, on all three given architectures and compare the performance for **best** model with respect to the project goals.
  
 ```#TODO: 0```: Timing Code - Implement the start_time to measure total program runtime. Coding within the ```check_images.py```
+```#TODO: 1```: Command Line Arguments - Code for ```def get_input_args():``` to create & retrieve the command line arguments with in **get_input_args.py**
+```#TODO: 2```: Creating Pet Image Labels - Code for ```def get_pet_labels():``` to create pet image labels by creating a dictionary with key=filename and value=file label within **get_pet_labels.py** and code within the ```main()``` function, **check_images.py**. Specify the appropriate directory within the function call with *in_arg.dir*
 
 # Image Classification for a City Dog Show
 ## Description:</br>
