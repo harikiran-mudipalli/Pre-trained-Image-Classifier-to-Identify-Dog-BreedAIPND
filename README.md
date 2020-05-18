@@ -4,8 +4,12 @@
  To execute the project, run ``` sh run_models_batch.sh``` in terminal, on all three given architectures and compare the performance for **best** model with respect to the project goals.
  
 ```#TODO: 0```: Timing Code - Implement the start_time to measure total program runtime. Coding within the ```check_images.py```
-```#TODO: 1```: Command Line Arguments - Code for ```def get_input_args():``` to create & retrieve the command line arguments with in **get_input_args.py**
-```#TODO: 2```: Creating Pet Image Labels - Code for ```def get_pet_labels():``` to create pet image labels by creating a dictionary with key=filename and value=file label within **get_pet_labels.py** and code within the ```main()``` function, **check_images.py**. Specify the appropriate directory within the function call with *in_arg.dir*
+```#TODO: 1```: Command Line Arguments - Code for ```def get_input_args():``` to create & retrieve the command line arguments with in ***get_input_args.py***</br>
+```#TODO: 2```: Creating Pet Image Labels - Code for ```def get_pet_labels():``` to create pet image labels by creating a dictionary with key=filename and value=file label within ***get_pet_labels.py*** and code within the ```main()``` function, ***check_images.py***. Specify the appropriate directory within the function call with *in_arg.dir*</br>
+```#TODO: 3```: Classifying Images - In ***classify_images.py***, implement ```def classify_images()``` to create the classifier labels with the classifier function using in_arg.arch. Compare the labels, and create a dictionary of results. Change corresponding ***check_images.py*** code. </br>
+```#TODO: 4```: **Classifying Labels as Dogs** - Implement the ```def adjust_results4_isadog():``` function to adjust the results of dictionary to determine if the classifier correctly classified images as 'a dog' or 'not a dog'.Change corresponding ***check_images.py*** code. </br>
+```#TODO: 5```: **Calculating Results** - Implement the ```def calculates_results_stats():``` function to calculate the results of run and put statistics in a results statistics dictionary (results_stats_dic). Change corresponding ***check_images.py*** code. </br>
+```#TODO: 6```: **Printing The Results** Implement the ```def print_results():``` function to print a summary of the results (as well as incorrect classifications of dogs and breeds if requested). Change corresponding ***check_images.py*** code. </br>
 
 # Image Classification for a City Dog Show
 ## Description:</br>
