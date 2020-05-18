@@ -1,7 +1,7 @@
 # Pre-trained-Image-Classifier-to-Identify-Dog-BreedAIPND
  Mini Project from Udacity's AI Programming with Python Nano Degree
  
- To execute the project, run ``` sh run_models_batch.sh``` on all three given architectures and compare the performance for **best** model with respect to the project goals.
+ To execute the project, run ``` sh run_models_batch.sh``` in terminal, on all three given architectures and compare the performance for **best** model with respect to the project goals.
 
 # Image Classification for a City Dog Show
 ## Description:</br>
